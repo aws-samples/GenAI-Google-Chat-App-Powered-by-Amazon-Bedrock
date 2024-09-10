@@ -1,0 +1,6 @@
+{
+  "anthropic-claude-sonnet-3-model-arn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0",
+  "anthropic-claude-sonnet-3-5-model-arn":"arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
+  "titan-text-premier-model-arn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-embed-text-v2:0",
+  "CHAT_ISSUER": "chat@system.gserviceaccount.com"
+}
