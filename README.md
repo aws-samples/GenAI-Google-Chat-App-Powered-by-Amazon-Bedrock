@@ -10,7 +10,9 @@ This solution provides you with an AWS CDK project and resources that are needed
 
 Before proceeding, ensure you have the following set up:
 
-* A development environment with at least 20GB of free disk space. It can be a local machine or a cloud instance. If you use an AWS Cloud9 instance, make sure you have increased the disk size to 20GB.
+* A development environment with at least 20GB of free disk space. It can be a local machine or a cloud instance. If you use an AWS Cloud9 instance[^1], make sure you have increased the disk size to 20GB.
+
+[^1]: Note that AWS made the decision to close new customer access to AWS Cloud9, effective July 25, 2024. If you are a new user, or if you would like to migrate your Cloud9 environment to AWS IDE Toolkits or AWS Cloudshell, please refer to the [following blog post](https://aws.amazon.com/blogs/devops/how-to-migrate-from-aws-cloud9-to-aws-ide-toolkits-or-aws-cloudshell/).
 
 * A Linux or MacOS terminal on your development environment.
 
