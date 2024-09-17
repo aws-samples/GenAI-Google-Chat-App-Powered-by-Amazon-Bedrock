@@ -62,3 +62,8 @@ This init script will prompt you:
     b.	Which large language model (LLM) you want to use on Amazon Bedrock for text generation, through the RetrieveandGenerate Bedrock runtime API. You can choose between either Antopic Claude Sonnet 3 or Amazon Titan Text G1 Premier models.
 
 The script will deploy the AWS CDK project in your account. After it runs successfully, it will output the parameter named “ApiEndpoint”, whose value designates the invoke URL for the HTTP API endpoint deployed as part of this project. Note the value of this parameter as you will need to give it in the Google Chat App configuration.
+
+### Register a new app in Google chat app in Google Cloud portal
+After you have deployed the CDK project in you AWS account, you will need to integrate it as a Google Chat App in your Google workspace environment. To do so, you are going to create an [HTTP Google Chat app](https://developers.google.com/workspace/chat/overview). 
+
+To find detailed instructions on how to publish your app to Google chat, you may refer to the section [Publish the app to Google Chat](https://developers.google.com/workspace/chat/quickstart/gcf-app#publish-app-to-chat) of the Google developer’s guide.
