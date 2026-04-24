@@ -52,11 +52,19 @@ pip install -r requirements.txt
 
 4.	Then, run the `cdk bootstrap` command to prepare an AWS environment for deploying the AWS CDK application. 
 
-5.	Run the init script:
+5.	There are two init scripts available. One for CDK and one for Terraform:
 
+
+If you want to use CDK please use the commands below:
 ```
-chmod u+x init-script.bash
+chmod u+x init-script_cdk.bash
 ./init-script.bash
+```
+
+For Terraform, use the following commands:
+```
+chmod u+x init-script_tf.bash
+./init-script_tf.bash
 ```
 
 This init script will prompt you: 

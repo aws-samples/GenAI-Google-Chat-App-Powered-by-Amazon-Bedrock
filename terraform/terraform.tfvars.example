@@ -1,0 +1,3 @@
+knowledge_base_id = "YOUR_KNOWLEDGE_BASE_ID"
+llm_model = "Anthropic-Claude-Sonnet-3"  # or "Amazon-Titan-Text-Premier"
+region = "us-east-1"
